@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background: url("https://images.pexels.com/photos/1298684/pexels-photo-1298684.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+width: 300px;
+height: 400px;
+background-color: rgb(255, 255, 255);
+box-shadow:  0 0 20px 9px rgba(0, 0, 0, 0.269);
+border-radius: 5px;
+overflow: hidden;
+
+}
+.btn-box{
+    position: relative;
+    margin: 35px auto;
+    width:200px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 9px #ff61241f;
+}
+#toggle{
+    position: absolute;
+    top:0;
+    left:0;
+    background:linear-gradient(to right,orange,rgba(237, 200, 18, 0.628));
+    transition: 0.5s;
+    height:100%;
+    width:100px;
+    border-radius: 20px;
+    
+}
+.btn{
+    padding: 10px 25px;
+    border: none;
+    background: transparent;
+    cursor: pointer; 
+    position: relative; 
+    transition: 0.5s;
+}
+.icon{
+    margin: 0 50px;
+    cursor: pointer;
+    background: none;
+    margin-bottom: 20px;
+}
+.fa-facebook{
+    margin: 0 15px;
+}
+.fa-linkedin{
+    margin: 0  15px;
+}
+.fa-twitter{
+    margin:0  15px;
+}
+.login{
+position: relative;
+
+}
+.boxxx{
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+width:250px;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 1px solid grey;
+margin: 10px 20px;
+background: transparent;
+}
+.login-btn{
+    margin: 20px 50px;
+    display: block;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background:linear-gradient(to right,orange,rgba(237, 200, 18, 0.628));
+    border: none;
+    cursor: pointer;
+}
+.checkbox{
+    margin:  10px 20px;
+    cursor: pointer;
+}
+span{
+    color:rgb(96, 92, 92);
+}
+  #login{
+    transition: 0.5s;
+} 
+  #register{
+   transition: 0.5s;
+} 
+
